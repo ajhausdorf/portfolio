@@ -1,0 +1,64 @@
+body {
+	padding-top: 50px;	
+	background: #8b8b8b;
+	color: #ffffff;
+}
+
+.navbar-header {
+	padding-top: 2px;
+	background-color: #8b8b8b;
+}
+
+.cursive {
+	font-family: cursive;
+	background-color: blue;
+}
+
+.hero-unit {
+	text-align: center;
+	background-color: #C1C1C1;
+	margin: 30px;
+	padding: 20px;
+	font-size: 11px;
+	line-height: 1.4em;
+	/* -webkit-border-radius: 5px; */
+	/* -moz-border-radius: 5px; */
+	border-radius: 5px;
+	/* box-shadow: 1px 1px 10px #444; */
+	border-color: #C1C1C1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $grayLight;
+}
+
+.logo {
+	letter-spacing: 35px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+form {
+	text-align: left;
+}
+
+
