@@ -36,17 +36,30 @@ body {
 	font-family: helvetica;	
 }
 #header {
-	text-align: center;
+	background-image: url("bwMountains.png"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+	opacity: .8;
 	color: white;
 	font-size: 120px;
 	font-family: helvetica;
-	background-image: ("bwMountains.png");
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
 }
 
+#pic {
+	width: 50%;
+}
+
+#navbar-nav {
+	padding-left: 150px;
+}
 
 #tres {
 	color: white;
-	opacity: .7;
+	opacity: .75;
 }
 
 #contact {
@@ -74,6 +87,11 @@ body {
 	/* box-shadow: 1px 1px 10px #444; */
 	border-color: #C1C1C1;
 	color: white;
+}
+
+#blue {
+	color: blue;
+	text-decoration: underline;
 }
 
 li {
