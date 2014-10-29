@@ -20,7 +20,7 @@ body {
 }
 
 #name {
-	padding-top: 125px;
+	padding-top: 105px;
 	text-align: center;
 	margin-top: 0px;
 	color: white;
@@ -28,6 +28,13 @@ body {
 	font-family: helvetica;
 }
 
+#bio {
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	font-size: 68px;
+	font-family: helvetica;	
+}
 #header {
 	text-align: center;
 	color: white;
@@ -36,13 +43,6 @@ body {
 	background-image: ("bwMountains.png");
 }
 
-#bio {
-	text-align: center;
-	margin-top: 0px;
-	color: white;
-	font-size: 68px;
-	font-family: helvetica;	
-}
 
 #tres {
 	color: white;
