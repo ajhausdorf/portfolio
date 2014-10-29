@@ -33,6 +33,7 @@ body {
 	color: white;
 	font-size: 120px;
 	font-family: helvetica;
+	background-image: ("bwMountains.png");
 }
 
 #bio {
