@@ -35,6 +35,13 @@ body {
 	font-size: 68px;
 	font-family: helvetica;	
 }
+
+.hero-input {
+    padding: 5px;
+    margin: 10px;
+    display:inline-block;
+}
+
 #header {
 	background-image: url("bwMountains.png"); 
 	background-repeat: no-repeat;
@@ -105,6 +112,18 @@ li {
 
 a:link, a:visited, a:hover, a:active {
     color: white;
+}
+
+
+#inline{
+	display: inline-block;
+	height: 30px;
+}
+
+::-webkit-input-placeholder {
+   font-family: helvetica;
+   line-height: 1.8;
+   font-size: 12px;
 }
 
 h1, h2, h3, h4, h5, h6 {
