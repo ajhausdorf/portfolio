@@ -38,7 +38,7 @@ body {
 
 .hero-input {
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
     display:inline-block;
 }
 
@@ -67,6 +67,10 @@ body {
 #tres {
 	color: white;
 	opacity: .75;
+}
+
+#pw, #cw, #mvp, #other {
+	margin-left: 11px;
 }
 
 #contact {
