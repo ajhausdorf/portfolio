@@ -50,11 +50,19 @@ body {
     display:inline-block;
 }
 
+.dos {
+	margin-top: 25px;
+}
+
+.dos2 {
+	margin-top: 100px;
+}
+
 #header {
 	background-image: url("bwMountains.png"); 
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 150px;
+	height: 200px;
 	opacity: .8;
 	color: white;
 	font-size: 120px;
