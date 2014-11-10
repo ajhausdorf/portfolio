@@ -58,20 +58,6 @@ body {
 	margin-top: 100px;
 }
 
-#header {
-	background-image: url("bwMountains.png"); 
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 200px;
-	opacity: .8;
-	color: white;
-	font-size: 120px;
-	font-family: helvetica;
-	text-align: center;
-	width: 100%;
-	padding-left: 0px;
-}
-
 #pic {
 	width: 50%;
 }
