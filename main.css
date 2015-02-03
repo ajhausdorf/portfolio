@@ -110,6 +110,14 @@ body {
 	text-decoration: underline;
 }
 
+footer {
+	margin-top: 1000px;
+	margin-left: 1100px; 
+	color: white;
+	font-size: 9px;
+	display: block;
+}
+
 li {
 	list-style-type: none;
 	margin-top: 15px;
