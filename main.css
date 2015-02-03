@@ -63,7 +63,8 @@ body {
 }
 
 #navbar-nav {
-	padding-left: 150px;
+	padding-left: 150px; 
+
 }
 
 #tres {
@@ -125,6 +126,10 @@ a:link, a:visited, a:hover, a:active {
 #inline{
 	display: inline-block;
 	height: 30px;
+}
+
+#nav {
+	margin-right: 18px;
 }
 
 ::-webkit-input-placeholder {
