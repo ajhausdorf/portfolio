@@ -120,8 +120,6 @@ footer {
 
 li {
 	list-style-type: none;
-	margin-top: 15px;
-	margin-right: 12px;
 	display: inline-block;
 	font-size: 15px;
 	color: white;
@@ -167,12 +165,30 @@ h4 {
 }
 
 p {
+  font-size: 1.8em;
+  line-height: 1.7em;
+}
+
+p2 {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
 
 form {
 	text-align: left;
 }
 
+.resume {
+	color: white;
+	opacity: .75;
+}
+
+.title {
+	color: white;
+}
+
+#topopps {
+	float: left;
+}
 
