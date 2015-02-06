@@ -179,6 +179,13 @@ form {
 	text-align: left;
 }
 
+.pdf {
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    opacity: 75%;
+}
+
 .resume {
 	color: white;
 	opacity: .75;
