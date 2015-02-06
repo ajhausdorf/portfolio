@@ -180,8 +180,7 @@ form {
 }
 
 .pdf {
-	margin-left: auto;
-    margin-right: auto;
+	margin-left: 225px;
     width: 70%;
     opacity: 75%;
 }
