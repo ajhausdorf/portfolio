@@ -145,6 +145,13 @@ body {
 	padding-left: 510px;
 }
 
+.buttonsInternational {
+	display: inline-block;
+	text-align: center;
+	padding-top: 12.5px;
+	padding-left: 590px;
+}
+
 .blackfooter {
 	background-color: black; 
 	width: 100%;
@@ -158,6 +165,13 @@ body {
 .footer {
 	display: inline-block;
 	margin-left: 360px;
+	margin-top: 20px;
+	text-size: 1em;
+}
+
+.footerInternational {
+	display: inline-block;
+	margin-left: 430px;
 	margin-top: 20px;
 	text-size: 1em;
 }
