@@ -87,6 +87,10 @@ body {
 	background-image: url("img/corn.jpg"); 
 }
 
+#travels {
+	background-image: url("img/oceans.jpg");
+}
+
 .backimg {
 	width: 100%;
 	background-repeat: no-repeat;
