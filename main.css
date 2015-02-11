@@ -19,17 +19,12 @@ body {
 }
 
 #content {
+	margin-top: 15px;
 	padding-bottom:150px;   /* Height of the footer element */
 }
 
 #contentC {
-	padding:10px;
 	padding-bottom:80px;   /* Height of the footer element */
-}
-
-#content2 {
-	padding:10px;
-	margin-bottom:150px;   /* Height of the footer element */
 }
 
 #footer {
@@ -44,6 +39,15 @@ body {
 	padding: 0px;
 	margin:0px;	
 	height: 1500px;
+	background-image: url("img/darkk.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bigmtn2 {
+	padding: 0px;
+	margin:0px;	
+	height: 1000px;
 	background-image: url("img/darkk.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -104,7 +108,27 @@ body {
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 10px;
+	height: 20px;
+	color: black;
+	/* opacity: .8; */
+}
+
+.flatwhite {
+	background-color: white; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	color: black;
+	/* opacity: .8; */
+}
+
+.flatwhiteA {
+	background-color: white; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1320px;
 	color: black;
 	/* opacity: .8; */
 }
@@ -114,7 +138,7 @@ body {
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 750px;
+	height: 800px;
 	color: black;
 	/* opacity: .8; */
 }
@@ -264,6 +288,9 @@ body {
 	/* box-shadow: 1px 1px 10px #444; */
 	border-color: #C1C1C1;
 	color: white;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
 #blue {
@@ -361,12 +388,6 @@ form {
 .pdf {
 	margin-left: 225px;
     width: 70%;
-    opacity: 75%;
-}
-
-.resume {
-	color: white;
-	opacity: .75;
 }
 
 .title {
@@ -376,4 +397,57 @@ form {
 #topopps {
 	float: left;
 }
+
+.box {
+    opacity: .8;
+    padding: 50px;
+}
+
+.right {
+	width: 550px;
+    height: 250px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    left: 622px;
+    top: -351px;
+    text-align: center;
+    padding: 30px;
+}
+
+.left {
+	width: 550px;
+    height: 250px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    position: relative;
+    left: 12px;
+    text-align: center;
+    padding: 30px;
+}
+
+.middle {
+	width: 550px;
+    height: 250px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    position: relative;
+    left: 325px;
+    top: -411px;
+    text-align: center;
+    padding: 30px;
+}
+
 
