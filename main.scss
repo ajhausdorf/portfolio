@@ -1,0 +1,513 @@
+$grayLight: #gray;
+
+@mixin vert-center {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+@mixin horiz-center {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+@mixin center-both {
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+} 
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#contentC {
+	padding-bottom:80px;   /* Height of the footer element */
+}
+
+#footer {
+	width:100%;
+	height:150px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#bigmtn {
+	width: 100%;
+	padding: 0px;
+	margin:0px;	
+	height: 1500px;
+	background-image: url("img/darkk.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+}
+
+#bigmtn2 {
+	padding: 0px;
+	margin:0px;	
+	height: 1000px;
+	background-image: url("img/darkk.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	width: 100%;
+}
+
+#mountain {
+	background-image: url("img/darkmtn.jpg"); 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 410px;
+	max-width: 100%;
+	/* opacity: .8; */
+}
+
+#name {
+	padding-top: 0px;
+	text-align: center;
+	margin-top: 50px;
+	color: white;
+	font-size: 50px;
+	font-family: helvetica;
+}
+
+.bio {
+	margin-top: 35px;
+	h4 {
+		text-align: center;
+		color: white;
+		font-size: 18px;
+		font-family: helvetica;	
+	}
+}
+
+#tree {
+	background-image: url("img/tree2.jpg"); 
+	max-width: 100%;
+}
+
+#field {
+	background-image: url("img/eco.jpg"); 
+	max-width: 100%;
+}
+
+#corn {
+	background-image: url("img/corn.jpg"); 
+	max-width: 100%;
+}
+
+#travels {
+	background-image: url("img/oceans.jpg");
+	max-width: 100%;
+}
+
+.backimg {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 575px;
+	max-width: 100%;
+	/* opacity: .8; */
+}
+
+.flatwhiteC {
+	background-color: white; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	color: black;
+	/* opacity: .8; */
+}
+
+.flatwhite {
+	background-color: white; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	color: black;
+	/* opacity: .8; */
+}
+
+.flatwhiteA {
+	background-color: white; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1320px;
+	color: black;
+	/* opacity: .8; */
+}
+
+.flatwhiteP {
+	background-color: white; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	color: black;
+	/* opacity: .8; */
+}
+
+.flatclear { 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+	color: black;
+	/* opacity: .8; */
+}
+
+.flatclear2 { 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 165px;
+	color: black;
+	/* opacity: .8; */
+}
+.socialgray {
+	background-color: gray; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 75px;
+	color: white;
+	/* opacity: .8; */
+}
+
+.buttons {
+	display: inline-block;
+	text-align: center;
+	padding-top: 12.5px;
+	padding-left: 509px;
+}
+
+.buttonsInternational {
+	display: inline-block;
+	text-align: center;
+	padding-top: 12.5px;
+	padding-left: 588px;
+}
+
+.blackfooter {
+	background-color: black; 
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 75px;
+	color: white;
+	/* opacity: .8; */
+}
+
+.footer {
+	display: inline-block;
+	margin-left: 360px;
+	margin-top: 20px;
+	text-size: 1em;
+}
+
+.footerInternational {
+	display: inline-block;
+	margin-left: 410px;
+	margin-top: 20px;
+	text-size: 1em;
+}
+
+#abtme {
+	text-align: center;
+}
+
+.sechead {
+	padding-top: 30px;
+	text-align: center;
+	margin-top: 0px;
+	color: black;
+	font-size: 50px;
+	font-family: helvetica;
+}
+
+#logo {
+	height: 65px;
+	width: 65px;
+	margin-top: 9px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.hero-input {
+    padding: 5px;
+    margin: 5px;
+    display:inline-block;
+}
+
+.portfolio {
+	height: 1600px;
+}
+
+.dos {
+	margin-top: 25px;
+}
+
+.dos2 {
+	margin-top: 100px;
+}
+
+#pic {
+	width: 50%;
+}
+
+#navbar-nav {
+	padding-left: 150px; 
+
+}
+
+#bio_container {
+	position: relative;
+	height: 500px;
+	margin-top: 15px;
+	.hero-unit {
+		position: relative;
+		color: white;
+		opacity: .75;
+		@include vert-center;
+	}
+}
+
+#tres {
+	position: relative;
+	height: 150px;
+	margin-top: 15px;
+	.hero-unit {
+		position: relative;
+		color: white;
+		opacity: .75;
+		@include vert-center;
+		h1 {
+			margin: 0px;
+		}
+	}
+}
+
+#pw, #cw, #mvp, #other {
+	margin-left: 11px;
+}
+
+#button {
+	background-color: blue;
+}
+
+#nav {
+	margin-top: 9px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.hero-unit {
+	text-align: center;
+	background-color: #2E2E2E;
+	font-size: 11px;
+	padding: 30px;
+	line-height: 1.4em;
+	/* -webkit-border-radius: 5px; */
+	/* -moz-border-radius: 5px; */
+	/* border-radius: 5px; */
+	/* box-shadow: 1px 1px 10px #444; */
+	border-color: #C1C1C1;
+	color: white;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#blue {
+	color: blue;
+	text-decoration: underline;
+}
+/*
+footer {
+	margin-top: 1029px;
+	margin-left: 1050px; 
+	color: white;
+	font-size: 9px;
+	display: block;
+} */
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 15px;
+	color: white;
+}
+/*
+#nav a:link, a:visited, a:hover, a:active {
+    color: white;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+*/
+
+a.black {color:black;}
+a.black:link  {text-decoration: none; color: black;}
+a.black:visited {text-decoration: none; color: black;}
+a.black:hover {text-decoration: underline; color: black;}
+a.black:active {text-decoration: none; color: black;}
+
+
+a.white {color:white;}
+a.white:link {text-decoration: none; color: white;}
+a.white:visited {text-decoration: none; color: white;}
+a.white:hover {text-decoration: underline; color: white;}
+a.white:active {text-decoration: none; color: white;}
+
+#inline{
+	display: inline-block;
+	height: 30px;
+}
+
+#nav {
+	margin-right: 18px;
+}
+
+::-webkit-input-placeholder {
+   font-family: helvetica;
+   line-height: 1.8;
+   font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $grayLight;
+}
+
+p {
+  font-size: 1.8em;
+  line-height: 1.7em;
+}
+
+p2 {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+form {
+	text-align: left;
+}
+
+.pdf {
+	margin-left: 225px;
+    width: 70%;
+}
+
+.title {
+	color: white;
+}
+
+#topopps {
+	float: left;
+}
+
+.box {
+    opacity: .8;
+    padding: 50px;
+}
+
+.right {
+	width: 550px;
+    height: 250px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    left: 622px;
+    top: -351px;
+    text-align: center;
+    padding: 30px;
+}
+
+.left {
+	width: 550px;
+    height: 250px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    position: relative;
+    left: 12px;
+    text-align: center;
+    padding: 30px;
+}
+
+.middle {
+	width: 550px;
+    height: 250px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    position: relative;
+    left: 325px;
+    top: -411px;
+    text-align: center;
+    padding: 30px;
+}
+
+@media (min-width: 1200px) {
+	#name {
+		padding-top: 75px;
+		text-align: center;
+		margin-top: 100px;
+		color: white;
+		font-size: 80px;
+		font-family: helvetica;
+	}
+
+	#mountain {
+		background-image: url("img/darkmtn.jpg"); 
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 575px;
+		/* opacity: .8; */
+	}
+}
