@@ -237,7 +237,6 @@ body {
   height: 150px;
   margin-top: 15px; }
   #tres .hero-unit {
-    margin: 0px;
     position: relative;
     color: white;
     opacity: .75;
@@ -245,6 +244,8 @@ body {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
+    #tres .hero-unit h1 {
+      margin: 0px; }
 
 #pw, #cw, #mvp, #other {
   margin-left: 11px; }
