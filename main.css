@@ -62,6 +62,12 @@ body {
     color: white;
     font-size: 18px;
     font-family: helvetica; }
+  .bio p {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-family: helvetica;
+  }
 
 #tree {
   background-image: url("img/tree2.jpg");
