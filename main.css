@@ -67,6 +67,7 @@ body {
     color: white;
     font-size: 13px;
     font-family: helvetica;
+    margin-bottom: -2px;
   }
 
 #tree {
