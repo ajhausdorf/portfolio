@@ -269,8 +269,17 @@ body {
     transform: translateY(-50%); }
 
 #tres {
-  position: relative;
-  margin-top: 15px; }
+  position: relative; 
+}
+
+#tres:not(:last-child) {
+  margin-top: 140px;
+}
+
+#tres:last-child {
+  margin-top: 140px;
+  margin-top: 20px;
+}
 
 #tresHome {
   position: relative;
