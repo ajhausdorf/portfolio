@@ -298,6 +298,7 @@ body {
     margin: 0px; }
 
 #tresIntl .hero-unit {
+  margin-top: 30px;
   position: relative;
   color: white;
   opacity: .75;
