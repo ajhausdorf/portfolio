@@ -86,14 +86,23 @@ body {
 	font-family: helvetica;
 }
 
-.bio {
-	margin-top: 35px;
-	h4 {
-		text-align: center;
-		color: white;
-		font-size: 18px;
-		font-family: helvetica;	
+.second {
+	display: inline-block;
+	.bio {
+		width: 100%;
+		position: relative;
 	}
+	.biopic {
+		background: url("img/monkey.png");
+	}
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 #tree {
@@ -195,8 +204,6 @@ body {
 .buttons {
 	display: inline-block;
 	text-align: center;
-	padding-top: 12.5px;
-	padding-left: 509px;
 }
 
 .buttonsInternational {

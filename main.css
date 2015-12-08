@@ -22,7 +22,7 @@ body {
   width: 100%;
   padding: 0px;
   margin: 0px;
-  height: 1500px;
+  height: 1100px;
   background-image: url("img/darkk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,13 +55,38 @@ body {
   font-size: 50px;
   font-family: helvetica; }
 
-.bio {
-  margin-top: 35px; }
-  .bio h4 {
-    text-align: center;
+.bioHead {
+    width: 100%;
+    position: relative;
     color: white;
-    font-size: 18px;
-    font-family: helvetica; }
+}
+
+.experience {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    color: white;
+    width: 90%;
+    line-height: 31px;
+}
+
+.biopic {
+  max-width: 100%;
+  height: 500px;
+  background: url("img/tango.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
 
 #tree {
   background-image: url("img/tree2.jpg");
@@ -146,13 +171,19 @@ body {
   background-size: cover;
   height: 75px;
   color: white;
+  position: relative;
   /* opacity: .8; */ }
 
 .buttons {
+  position: relative;
   display: inline-block;
-  text-align: center;
-  padding-top: 12.5px;
-  padding-left: 509px; }
+  left: 50%;
+  top: 50%;
+  padding: 0px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .buttonsInternational {
   display: inline-block;
@@ -161,6 +192,7 @@ body {
   padding-left: 588px; }
 
 .blackfooter {
+  position: relative;
   background-color: black;
   width: 100%;
   background-repeat: no-repeat;
@@ -171,9 +203,14 @@ body {
 
 .footer {
   display: inline-block;
-  margin-left: 360px;
-  margin-top: 20px;
-  text-size: 1em; }
+  text-size: 1em; 
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .footerInternational {
   display: inline-block;
@@ -234,8 +271,13 @@ body {
 
 #tres {
   position: relative;
-  height: 150px;
   margin-top: 15px; }
+
+#tresHome {
+  position: relative;
+  margin-top: 30px; 
+}
+
   #tres .hero-unit {
     position: relative;
     color: white;
@@ -437,20 +479,27 @@ form {
   padding: 30px; }
 
 @media (min-width: 1200px) {
+
+}
+
+@media (min-width: 760px) {
   #name {
     padding-top: 75px;
     text-align: center;
     margin-top: 100px;
     color: white;
     font-size: 80px;
-    font-family: helvetica; }
+    font-family: helvetica;
+  }
 
   #mountain {
-    background-image: url("img/darkmtn.jpg");
+    background-image: url("img/darkmtn.jpg"); 
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 575px;
-    /* opacity: .8; */ } }
+    /* opacity: .8; */
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
