@@ -286,16 +286,27 @@ body {
   margin-top: 30px; 
 }
 
-  #tres .hero-unit {
-    position: relative;
-    color: white;
-    opacity: .75;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
-    #tres .hero-unit h1 {
-      margin: 0px; }
+#tres .hero-unit {
+  position: relative;
+  color: white;
+  opacity: .75;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  #tres .hero-unit h1 {
+    margin: 0px; }
+
+#tresIntl .hero-unit {
+  position: relative;
+  color: white;
+  opacity: .75;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  #tres .hero-unit h1 {
+    margin: 0px; }
 
 #pw, #cw, #mvp, #other {
   margin-left: 11px; }
