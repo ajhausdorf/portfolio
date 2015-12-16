@@ -16,7 +16,12 @@ body {
   height: 150px;
   position: absolute;
   bottom: 0;
-  left: 0; }
+  left: 0; 
+}
+
+.footer {
+  padding-left: 87px;
+}
 
 #bigmtn {
   width: 100%;
@@ -89,19 +94,27 @@ body {
 
 #tree {
   background-image: url("img/tree2.jpg");
+  background-position: center;
   max-width: 100%; }
 
 #field {
   background-image: url("img/eco.jpg");
+  background-position: center;
   max-width: 100%; }
 
 #corn {
   background-image: url("img/corn.jpg");
+  background-position: center;
   max-width: 100%; }
 
 #travels {
   background-image: url("img/oceans.jpg");
+  background-position: right;
   max-width: 100%; }
+
+#map {
+  max-width: 90%;
+}
 
 .backimg {
   width: 100%;
@@ -164,6 +177,7 @@ body {
   /* opacity: .8; */ }
 
 .socialgray {
+  margin-top: 650px;
   background-color: gray;
   width: 100%;
   background-repeat: no-repeat;
@@ -224,6 +238,7 @@ body {
   padding-top: 30px;
   text-align: center;
   margin-top: 0px;
+  margin-bottom: 40px;
   color: black;
   font-size: 50px;
   font-family: helvetica; }
@@ -266,19 +281,11 @@ body {
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
+    transform: translateY(-50%); 
+  }
 
 #tres {
-  position: relative; 
-}
-
-#tres:not(:last-child) {
-  margin-top: 140px;
-}
-
-#tres:last-child {
-  margin-top: 140px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #tresHome {
@@ -289,16 +296,12 @@ body {
 #tres .hero-unit {
   position: relative;
   color: white;
-  opacity: .75;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  opacity: .75; }
   #tres .hero-unit h1 {
     margin: 0px; }
 
 #tresIntl {
-  margin-top: 20px;
+  margin-top: 65px;
 }
 
 #tresIntl .hero-unit {
@@ -523,6 +526,32 @@ form {
     height: 575px;
     /* opacity: .8; */
   }
-}
+
+  .footer {
+    padding-left: 0px;
+  }
+
+  .socialgray {
+    margin-top: 0px;
+  }
+
+  #tres .hero-unit {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  }
+
+  #tres {
+    margin-top: 140px;
+  }
+
+  #tres:last-child {
+    margin-top: 55px;
+  }
+
+  #tresIntl {
+    margin-top: 20px;
+  }
 
 /*# sourceMappingURL=main.css.map */
