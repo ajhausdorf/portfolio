@@ -177,7 +177,7 @@ body {
   /* opacity: .8; */ }
 
 .socialgray {
-  margin-top: 650px;
+  margin-top: 0px;
   background-color: gray;
   width: 100%;
   background-repeat: no-repeat;
@@ -508,7 +508,7 @@ form {
 
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
   #name {
     padding-top: 75px;
     text-align: center;
@@ -532,7 +532,7 @@ form {
   }
 
   .socialgray {
-    margin-top: 0px;
+    margin-top: 650px;
   }
 
   #tres .hero-unit {
@@ -553,5 +553,6 @@ form {
   #tresIntl {
     margin-top: 20px;
   }
+}
 
 /*# sourceMappingURL=main.css.map */
