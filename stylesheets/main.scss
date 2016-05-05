@@ -1,0 +1,178 @@
+/* scss color formatting $grayLight: #gray; */
+
+@mixin vert-center {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+@mixin horiz-center {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+@mixin center-both {
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    background-color: black !important; /*Overwrite Bootstrap*/
+}
+
+.ang-wrap, .mountainSection, .aboutWrap, .portfolioWrap, .travelsWrap {
+    height: 460px;
+}
+
+.mountainSection {
+    background-image: url("../img/darkmtn.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    position: relative;
+    /* opacity: .8; */ 
+}
+
+.bioWrap {
+    position: relative;
+    @include vert-center;
+}
+
+.bioItem {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: helvetica; 
+}
+
+.controlPanel {
+	height: 80px;
+    width: 100%;
+    position: relative;
+	.button, .divider {
+	    display: inline-block;
+	    color: white;
+	    font-size: 16px;
+	    position: relative;
+	    @include vert-center;
+	}
+
+	.divider {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.buttonWrap {
+	    height: 80px;
+	    width: 100%;
+	    text-align: center;
+	    .button a {
+		    color: white;
+		}
+	}
+} /* .controlPanel */
+
+.bioHead {
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+.socialgray {
+    margin-top: 0px;
+    background-color: gray;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75px;
+    color: white;
+    position: relative;
+    /* opacity: .8; */ 
+    .footerButtons {
+	    position: relative;
+	    display: inline-block;
+	    padding: 0px;
+	    @include center-both;
+	    li {
+			list-style-type: none;
+			display: inline-block;
+			font-size: 15px;
+			color: white; 
+		}
+	}
+} /* .socialGray */
+
+.blackfooter {
+	position: relative;
+	background-color: black;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 75px;
+	color: white;
+	/* opacity: .8; */ 
+	.footer {
+		display: inline-block;
+		position: relative;
+		@include center-both;
+		padding-left: 0px;
+		li {
+			list-style-type: none;
+			display: inline-block;
+			font-size: 15px; 
+		}
+	}
+} /* .blackfooter */
+
+.aboutWrap, .portfolioWrap, .travelsWrap {
+    overflow: scroll;
+    color: white;
+}
+
+/* Travels */
+
+.travelsHeader {
+    font-size: 36px;
+}
+
+#abtme {
+	a { color: white; text-decoration: none;}
+	a:hover { color: white; }
+	a:active { color: white; }
+	a:visited { color: white; }
+}
+    
+    
+    /*! ^#@Bootstrap sm *//*
+    Larger than tablet portrait */
+    @media (min-width: 768px) {
+
+        .footer {
+            padding-left: 0px;
+        }
+    }
+
+    /*! ^#@Bootstrap md *//*
+      Larger than tablet portrait */
+    @media (min-width: 992px) {
+
+          
+    }/*Bootstrap Md*/
+    @media (min-width: 1200px) {
+
+    }

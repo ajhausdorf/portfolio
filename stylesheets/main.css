@@ -1,0 +1,196 @@
+/* scss color formatting $grayLight: #gray; */
+/* line 25, main.scss */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black !important;
+  /*Overwrite Bootstrap*/
+}
+
+/* line 32, main.scss */
+.ang-wrap, .mountainSection, .aboutWrap, .portfolioWrap, .travelsWrap {
+  height: 460px;
+}
+
+/* line 36, main.scss */
+.mountainSection {
+  background-image: url("../img/darkmtn.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+  /* opacity: .8; */
+}
+
+/* line 46, main.scss */
+.bioWrap {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 51, main.scss */
+.bioItem {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+/* line 57, main.scss */
+.name {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: helvetica;
+}
+
+/* line 64, main.scss */
+.controlPanel {
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+/* line 68, main.scss */
+.controlPanel .button, .controlPanel .divider {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 76, main.scss */
+.controlPanel .divider {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 80, main.scss */
+.controlPanel .buttonWrap {
+  height: 80px;
+  width: 100%;
+  text-align: center;
+}
+/* line 84, main.scss */
+.controlPanel .buttonWrap .button a {
+  color: white;
+}
+
+/* .controlPanel */
+/* line 90, main.scss */
+.bioHead {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+/* line 96, main.scss */
+.socialgray {
+  margin-top: 0px;
+  background-color: gray;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75px;
+  color: white;
+  position: relative;
+  /* opacity: .8; */
+}
+/* line 106, main.scss */
+.socialgray .footerButtons {
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 111, main.scss */
+.socialgray .footerButtons li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+}
+
+/* .socialGray */
+/* line 120, main.scss */
+.blackfooter {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75px;
+  color: white;
+  /* opacity: .8; */
+}
+/* line 129, main.scss */
+.blackfooter .footer {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding-left: 0px;
+}
+/* line 134, main.scss */
+.blackfooter .footer li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+/* .blackfooter */
+/* line 142, main.scss */
+.aboutWrap, .portfolioWrap, .travelsWrap {
+  overflow: scroll;
+  color: white;
+}
+
+/* Travels */
+/* line 149, main.scss */
+.travelsHeader {
+  font-size: 36px;
+}
+
+/* line 154, main.scss */
+#abtme a {
+  color: white;
+  text-decoration: none;
+}
+/* line 155, main.scss */
+#abtme a:hover {
+  color: white;
+}
+/* line 156, main.scss */
+#abtme a:active {
+  color: white;
+}
+/* line 157, main.scss */
+#abtme a:visited {
+  color: white;
+}
+
+/* ^#@Bootstrap sm */
+                      /*
+Larger than tablet portrait */
+@media (min-width: 768px) {
+  /* line 165, main.scss */
+  .footer {
+    padding-left: 0px;
+  }
+}
+/* ^#@Bootstrap md */
+                    /*
+Larger than tablet portrait */
+/*Bootstrap Md*/
