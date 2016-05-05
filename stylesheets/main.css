@@ -35,7 +35,7 @@ body {
 
 /* line 51, main.scss */
 .bioItem {
-  font-size: 25px;
+  font-size: 18px;
   text-align: center;
   color: white;
 }
@@ -44,7 +44,7 @@ body {
 .name {
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 27px;
   font-family: helvetica;
 }
 
@@ -218,34 +218,46 @@ body {
                       /*
 Larger than tablet portrait */
 @media (min-width: 768px) {
-  /* line 193, main.scss */
+  /* Home */
+  /* line 194, main.scss */
+  .name {
+    font-size: 50px;
+  }
+
+  /* line 198, main.scss */
+  .bioItem {
+    font-size: 25px;
+  }
+
+  /* Travels */
+  /* line 203, main.scss */
   .travelsTitle {
     font-size: 36px;
     padding-top: 55px;
     padding-left: 0px;
   }
 
-  /* line 199, main.scss */
+  /* line 209, main.scss */
   .map {
     margin-top: 25px;
   }
 
-  /* line 203, main.scss */
+  /* line 213, main.scss */
   .footer {
     padding-left: 0px;
   }
 
-  /* line 207, main.scss */
+  /* line 217, main.scss */
   .travelsItemWrap {
     margin-top: 10px;
   }
-  /* line 209, main.scss */
+  /* line 219, main.scss */
   .travelsItemWrap .travelsItem {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  /* line 215, main.scss */
+  /* line 225, main.scss */
   .mapWrap {
     padding-left: 15px;
     padding-right: 15px;
@@ -255,43 +267,43 @@ Larger than tablet portrait */
                     /*
 Larger than tablet portrait */
 @media (min-width: 992px) {
-  /* line 224, main.scss */
+  /* line 235, main.scss */
   .mapCols {
     margin-top: 25px;
   }
-  /* line 226, main.scss */
+  /* line 237, main.scss */
   .mapCols .map {
     margin-top: 10px;
   }
 
-  /* line 231, main.scss */
+  /* line 242, main.scss */
   .ang-wrap, .mountainSection, .aboutWrap, .portfolioWrap, .travelsWrap {
     height: 520px;
   }
 
-  /* line 235, main.scss */
+  /* line 246, main.scss */
   .travelsItemWrap {
     margin-top: 25px;
   }
-  /* line 237, main.scss */
+  /* line 248, main.scss */
   .travelsItemWrap .travelsItem {
     text-align: left;
     font-size: 20px;
   }
 
-  /* line 243, main.scss */
+  /* line 254, main.scss */
   .travelsItem:first-child {
     margin-top: 0px;
   }
 }
 /*Bootstrap Md*/
 @media (min-width: 1200px) {
-  /* line 249, main.scss */
+  /* line 260, main.scss */
   .travelsItemWrap .travelsItem {
     font-size: 24px;
   }
 
-  /* line 254, main.scss */
+  /* line 265, main.scss */
   .mapCols {
     margin-top: 40px;
   }

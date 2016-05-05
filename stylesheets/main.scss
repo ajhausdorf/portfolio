@@ -49,7 +49,7 @@ body {
 }
 
 .bioItem {
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     color: white;
 }
@@ -57,7 +57,7 @@ body {
 .name {
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 27px;
     font-family: helvetica; 
 }
 
@@ -189,7 +189,17 @@ body {
     /*! ^#@Bootstrap sm *//*
     Larger than tablet portrait */
     @media (min-width: 768px) {
+		
+		/* Home */
+		.name {
+		    font-size: 50px; 
+		}
 
+		.bioItem {
+			font-size: 25px;
+		}
+
+		/* Travels */
     	.travelsTitle {
     		font-size: 36px;
     		padding-top: 55px;
@@ -216,6 +226,7 @@ body {
 			padding-left: 15px;
 			padding-right: 15px;
 		}
+
     }
 
     /*! ^#@Bootstrap md *//*
