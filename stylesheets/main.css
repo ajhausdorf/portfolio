@@ -163,20 +163,53 @@ body {
   font-size: 36px;
 }
 
-/* line 154, main.scss */
+/* line 153, main.scss */
+.travelsTitle {
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 161, main.scss */
+.travelsItemWrap {
+  margin-top: 10px;
+  padding-bottom: 25px;
+}
+/* line 164, main.scss */
+.travelsItemWrap .travelsItem {
+  font-size: 16px;
+  margin-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+/* line 173, main.scss */
+.mapCols {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+/* line 176, main.scss */
+.mapCols .map {
+  margin: auto;
+}
+
+/* line 182, main.scss */
 #abtme a {
   color: white;
   text-decoration: none;
 }
-/* line 155, main.scss */
+/* line 183, main.scss */
 #abtme a:hover {
   color: white;
 }
-/* line 156, main.scss */
+/* line 184, main.scss */
 #abtme a:active {
   color: white;
 }
-/* line 157, main.scss */
+/* line 185, main.scss */
 #abtme a:visited {
   color: white;
 }
@@ -185,12 +218,81 @@ body {
                       /*
 Larger than tablet portrait */
 @media (min-width: 768px) {
-  /* line 165, main.scss */
+  /* line 193, main.scss */
+  .travelsTitle {
+    font-size: 36px;
+    padding-top: 55px;
+    padding-left: 0px;
+  }
+
+  /* line 199, main.scss */
+  .map {
+    margin-top: 25px;
+  }
+
+  /* line 203, main.scss */
   .footer {
     padding-left: 0px;
+  }
+
+  /* line 207, main.scss */
+  .travelsItemWrap {
+    margin-top: 10px;
+  }
+  /* line 209, main.scss */
+  .travelsItemWrap .travelsItem {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 215, main.scss */
+  .mapWrap {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 /* ^#@Bootstrap md */
                     /*
 Larger than tablet portrait */
+@media (min-width: 992px) {
+  /* line 224, main.scss */
+  .mapCols {
+    margin-top: 25px;
+  }
+  /* line 226, main.scss */
+  .mapCols .map {
+    margin-top: 10px;
+  }
+
+  /* line 231, main.scss */
+  .ang-wrap, .mountainSection, .aboutWrap, .portfolioWrap, .travelsWrap {
+    height: 520px;
+  }
+
+  /* line 235, main.scss */
+  .travelsItemWrap {
+    margin-top: 25px;
+  }
+  /* line 237, main.scss */
+  .travelsItemWrap .travelsItem {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  /* line 243, main.scss */
+  .travelsItem:first-child {
+    margin-top: 0px;
+  }
+}
 /*Bootstrap Md*/
+@media (min-width: 1200px) {
+  /* line 249, main.scss */
+  .travelsItemWrap .travelsItem {
+    font-size: 24px;
+  }
+
+  /* line 254, main.scss */
+  .mapCols {
+    margin-top: 40px;
+  }
+}

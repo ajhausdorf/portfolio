@@ -150,6 +150,34 @@ body {
     font-size: 36px;
 }
 
+.travelsTitle {
+	font-size: 34px;
+	line-height: 39px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.travelsItemWrap {
+	margin-top: 10px;
+	padding-bottom: 25px;
+	.travelsItem {
+		font-size: 16px;
+		margin-top: 25px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+	}
+}
+
+.mapCols {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	.map {
+		margin: auto;
+	}
+}
+
 #abtme {
 	a { color: white; text-decoration: none;}
 	a:hover { color: white; }
@@ -162,17 +190,69 @@ body {
     Larger than tablet portrait */
     @media (min-width: 768px) {
 
+    	.travelsTitle {
+    		font-size: 36px;
+    		padding-top: 55px;
+			padding-left: 0px;
+    	}
+
+    	.map {
+    		margin-top: 25px;
+    	}
+
         .footer {
             padding-left: 0px;
         }
+
+		.travelsItemWrap {
+			margin-top: 10px;
+			.travelsItem {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+
+		.mapWrap {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
     }
 
     /*! ^#@Bootstrap md *//*
       Larger than tablet portrait */
     @media (min-width: 992px) {
+    	.mapCols {
+    		margin-top: 25px;
+    		.map {
+	    		margin-top: 10px;
+	    	}
+    	}
 
-          
+		.ang-wrap, .mountainSection, .aboutWrap, .portfolioWrap, .travelsWrap {
+			height: 520px;
+		}
+
+        .travelsItemWrap {
+        	margin-top: 25px;
+			.travelsItem {
+				text-align: left;
+	        	font-size: 20px;
+	        }
+        }
+        	
+        .travelsItem:first-child {
+        	margin-top: 0px;
+        }
     }/*Bootstrap Md*/
     @media (min-width: 1200px) {
+    	.travelsItemWrap {
+    		.travelsItem {
+    			font-size: 24px;
+    		}
+    	}
 
+    	.mapCols {
+    		margin-top: 40px;
+    	}
+    	
     }
