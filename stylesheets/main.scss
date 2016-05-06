@@ -214,7 +214,31 @@ body {
 	max-height: 380px;
 	margin-top: 70px;
 }
+
+/* Portfolio */
+
+.portfolioBackground {
+	background-image: url("../img/eco.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
     
+.portfolioWrap p a {
+	color: white;
+	text-decoration: underline;
+}
+
+.portfolioItemWrap h1 {
+	font-size: 34px;
+	margin-bottom: 15px;
+	a {
+		color: white;
+	}
+}
+
+.portfolioWrap {
+	padding-bottom: 30px;
+}
     
     /*! ^#@Bootstrap sm *//*
     Larger than tablet portrait */
