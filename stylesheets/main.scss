@@ -34,10 +34,7 @@ body {
 }f
 
 .screen {
-    
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
     max-width: 100%;
     position: relative;
     /* opacity: .8; */ 
@@ -45,15 +42,21 @@ body {
 
 .mountain {
 	background-image: url("../img/darkmtn.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .corn {
 	background-image: url("../img/corn.jpg");
 	background-position: 100% 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .travelBackground {
 	background-image: url("../img/corn.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bioWrap {
