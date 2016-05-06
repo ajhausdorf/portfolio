@@ -29,7 +29,7 @@ body {
     background-color: black !important; /*Overwrite Bootstrap*/
 }
 
-.ang-wrap, .mountainSection, .aboutWrap, .portfolioWrap, .travelsWrap {
+.ang-wrap, .mountainSection, .homeWrap, .aboutWrap, .portfolioWrap, .travelsWrap {
     height: 460px;
 }
 
@@ -50,6 +50,10 @@ body {
 .corn {
 	background-image: url("../img/corn.jpg");
 	background-position: 100% 100%;
+}
+
+.travelBackground {
+	background-image: url("../img/corn.jpg");
 }
 
 .bioWrap {
