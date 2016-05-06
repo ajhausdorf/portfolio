@@ -75,7 +75,6 @@ body {
 }
 
 .controlPanel {
-	height: 80px;
     width: 100%;
     position: relative;
 	.button, .divider {
@@ -91,7 +90,6 @@ body {
 	    padding-right: 10px;
 	}
 	.buttonWrap {
-	    height: 80px;
 	    width: 100%;
 	    text-align: center;
 	    .button a {
@@ -99,6 +97,10 @@ body {
 		}
 	}
 } /* .controlPanel */
+
+.controlPanel, .buttonWrap {
+	height: 63px;
+}
 
 .bioHead {
     width: 100%;
@@ -250,6 +252,10 @@ body {
 		.mapWrap {
 			padding-left: 15px;
 			padding-right: 15px;
+		}
+
+		.controlPanel, .buttonWrap {
+			height: 80px;
 		}
 
     }
