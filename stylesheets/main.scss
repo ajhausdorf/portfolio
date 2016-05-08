@@ -22,6 +22,14 @@
 	transform: translate(-50%, -50%);
 } 
 
+/* Page transitions don't work yet 
+.ng-enter { 
+	transition: all 600ms ease-in-out; 
+}
+.ng-leave { 
+	transition: all 600ms ease-in-out; 
+} */
+
 body {
     margin: 0;
     padding: 0;
@@ -42,13 +50,6 @@ body {
 
 .mountain {
 	background-image: url("../img/darkmtn.jpg");
-	background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.corn {
-	background-image: url("../img/corn.jpg");
-	background-position: 100% 100%;
 	background-repeat: no-repeat;
     background-size: cover;
 }
@@ -197,6 +198,13 @@ body {
 }
 
 /* about */
+
+.corn {
+	background-image: url("../img/corn.jpg");
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .aboutTitle {
 	margin-top: 15px;
