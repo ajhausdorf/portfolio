@@ -281,6 +281,10 @@ f
   color: white;
 }
 
+#authentripRepo {
+  text-decoration: underline;
+}
+
 /* line 247, main.scss */
 .portfolioWrap {
   padding-bottom: 30px;
