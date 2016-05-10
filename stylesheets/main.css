@@ -60,10 +60,11 @@ f
 }
 
 /* line 74, main.scss */
-.name {
+.name h1 {
   text-align: center;
   color: white;
   font-size: 27px;
+  margin-top: 0px;
   font-family: helvetica;
 }
 
@@ -222,7 +223,7 @@ f
 /* line 202, main.scss */
 .corn {
   background-image: url("../img/corn.jpg");
-  background-position: 100% 100%;
+  background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -296,7 +297,7 @@ Larger than tablet portrait */
 @media (min-width: 768px) {
   /* Home */
   /* line 256, main.scss */
-  .name {
+  .name h1 {
     font-size: 50px;
   }
 
@@ -343,7 +344,10 @@ Larger than tablet portrait */
   .controlPanel, .buttonWrap {
     height: 80px;
   }
-}
+
+  .corn {
+    background-position: 100% 100%;
+  }
 /* ^#@Bootstrap md */
                     /*
 Larger than tablet portrait */
