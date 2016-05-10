@@ -71,11 +71,13 @@ body {
     color: white;
 }
 
-.name {
+.name h1 {
     text-align: center;
     color: white;
     font-size: 27px;
     font-family: helvetica; 
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .controlPanel {
@@ -201,7 +203,7 @@ body {
 
 .corn {
 	background-image: url("../img/corn.jpg");
-	background-position: 100% 100%;
+	background-position: 0% 100%;
 	background-repeat: no-repeat;
     background-size: cover;
 }
@@ -236,8 +238,16 @@ body {
 	text-decoration: underline;
 }
 
-.portfolioItemWrap h1 {
+.portfolioTitle {
 	font-size: 34px;
+	line-height: 39px;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.portfolioItemWrap h1 {
+	font-size: 26px;
 	margin-bottom: 15px;
 	a {
 		color: white;
@@ -253,7 +263,7 @@ body {
     @media (min-width: 768px) {
 		
 		/* Home */
-		.name {
+		.name h1 {
 		    font-size: 50px; 
 		}
 
@@ -263,7 +273,7 @@ body {
 
 		/* Travels */
     	.travelsTitle {
-    		font-size: 36px;
+    		font-size: 40px;
     		padding-top: 55px;
 			padding-left: 0px;
     	}
@@ -293,7 +303,23 @@ body {
 			height: 80px;
 		}
 
-    }
+		.corn {
+			background-image: url("../img/corn.jpg");
+			background-position: 100% 100%;
+    	}
+		
+		/* Portfolio */
+    	.portfolioTitle {
+			font-size: 40px;
+    		padding-top: 55px;
+			padding-left: 0px;
+			text-align: center;
+		}
+
+		.portfolioItemWrap h1 {
+			font-size: 30px;
+	    }
+	} /* Bootstrap sm*/
 
     /*! ^#@Bootstrap md *//*
       Larger than tablet portrait */

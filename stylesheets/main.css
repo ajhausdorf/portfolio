@@ -64,16 +64,17 @@ f
   text-align: center;
   color: white;
   font-size: 27px;
-  margin-top: 0px;
   font-family: helvetica;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
-/* line 81, main.scss */
+/* line 83, main.scss */
 .controlPanel {
   width: 100%;
   position: relative;
 }
-/* line 84, main.scss */
+/* line 86, main.scss */
 .controlPanel .button, .controlPanel .divider {
   display: inline-block;
   color: white;
@@ -84,35 +85,35 @@ f
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 92, main.scss */
+/* line 94, main.scss */
 .controlPanel .divider {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 96, main.scss */
+/* line 98, main.scss */
 .controlPanel .buttonWrap {
   width: 100%;
   text-align: center;
 }
-/* line 99, main.scss */
+/* line 101, main.scss */
 .controlPanel .buttonWrap .button a {
   color: white;
 }
 
 /* .controlPanel */
-/* line 105, main.scss */
+/* line 107, main.scss */
 .controlPanel, .buttonWrap {
   height: 70px;
 }
 
-/* line 109, main.scss */
+/* line 111, main.scss */
 .bioHead {
   width: 100%;
   position: relative;
   color: white;
 }
 
-/* line 115, main.scss */
+/* line 117, main.scss */
 .socialgray {
   margin-top: 0px;
   background-color: gray;
@@ -124,7 +125,7 @@ f
   position: relative;
   /* opacity: .8; */
 }
-/* line 125, main.scss */
+/* line 127, main.scss */
 .socialgray .footerButtons {
   position: relative;
   display: inline-block;
@@ -135,7 +136,7 @@ f
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 130, main.scss */
+/* line 132, main.scss */
 .socialgray .footerButtons li {
   list-style-type: none;
   display: inline-block;
@@ -144,7 +145,7 @@ f
 }
 
 /* .socialGray */
-/* line 139, main.scss */
+/* line 141, main.scss */
 .blackfooter {
   position: relative;
   background-color: black;
@@ -155,7 +156,7 @@ f
   color: white;
   /* opacity: .8; */
 }
-/* line 148, main.scss */
+/* line 150, main.scss */
 .blackfooter .footer {
   display: inline-block;
   position: relative;
@@ -166,7 +167,7 @@ f
   transform: translate(-50%, -50%);
   padding-left: 0px;
 }
-/* line 153, main.scss */
+/* line 155, main.scss */
 .blackfooter .footer li {
   list-style-type: none;
   display: inline-block;
@@ -174,19 +175,19 @@ f
 }
 
 /* .blackfooter */
-/* line 161, main.scss */
+/* line 163, main.scss */
 .aboutWrap, .portfolioWrap, .travelsWrap {
   overflow: scroll;
   color: white;
 }
 
 /* Travels */
-/* line 168, main.scss */
+/* line 170, main.scss */
 .travelsHeader {
   font-size: 36px;
 }
 
-/* line 172, main.scss */
+/* line 174, main.scss */
 .travelsTitle {
   font-size: 34px;
   line-height: 39px;
@@ -195,12 +196,12 @@ f
   padding-bottom: 25px;
 }
 
-/* line 180, main.scss */
+/* line 182, main.scss */
 .travelsItemWrap {
   margin-top: 10px;
   padding-bottom: 25px;
 }
-/* line 183, main.scss */
+/* line 185, main.scss */
 .travelsItemWrap .travelsItem {
   font-size: 16px;
   margin-top: 25px;
@@ -209,18 +210,18 @@ f
   text-align: center;
 }
 
-/* line 192, main.scss */
+/* line 194, main.scss */
 .mapCols {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-/* line 195, main.scss */
+/* line 197, main.scss */
 .mapCols .map {
   margin: auto;
 }
 
 /* about */
-/* line 202, main.scss */
+/* line 204, main.scss */
 .corn {
   background-image: url("../img/corn.jpg");
   background-position: 0% 100%;
@@ -228,65 +229,70 @@ f
   background-size: cover;
 }
 
-/* line 209, main.scss */
+/* line 211, main.scss */
 .aboutTitle {
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-/* line 215, main.scss */
+/* line 217, main.scss */
 #abtme a {
   color: white;
   text-decoration: none;
 }
-/* line 216, main.scss */
+/* line 218, main.scss */
 #abtme a:hover {
   color: white;
 }
-/* line 217, main.scss */
+/* line 219, main.scss */
 #abtme a:active {
   color: white;
 }
-/* line 218, main.scss */
+/* line 220, main.scss */
 #abtme a:visited {
   color: white;
 }
 
-/* line 221, main.scss */
+/* line 223, main.scss */
 .tango {
   max-height: 380px;
   margin-top: 70px;
 }
 
 /* Portfolio */
-/* line 228, main.scss */
+/* line 230, main.scss */
 .portfolioBackground {
   background-image: url("../img/eco.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 234, main.scss */
+/* line 236, main.scss */
 .portfolioWrap p a {
   color: white;
   text-decoration: underline;
 }
 
-/* line 239, main.scss */
-.portfolioItemWrap h1 {
+/* line 241, main.scss */
+.portfolioTitle {
   font-size: 34px;
+  line-height: 39px;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 249, main.scss */
+.portfolioItemWrap h1 {
+  font-size: 26px;
   margin-bottom: 15px;
 }
-/* line 242, main.scss */
+/* line 252, main.scss */
 .portfolioItemWrap h1 a {
   color: white;
 }
 
-#authentripRepo {
-  text-decoration: underline;
-}
-
-/* line 247, main.scss */
+/* line 257, main.scss */
 .portfolioWrap {
   padding-bottom: 30px;
 }
@@ -296,99 +302,117 @@ f
 Larger than tablet portrait */
 @media (min-width: 768px) {
   /* Home */
-  /* line 256, main.scss */
+  /* line 266, main.scss */
   .name h1 {
     font-size: 50px;
   }
 
-  /* line 260, main.scss */
+  /* line 270, main.scss */
   .bioItem {
     font-size: 25px;
   }
 
   /* Travels */
-  /* line 265, main.scss */
+  /* line 275, main.scss */
   .travelsTitle {
-    font-size: 36px;
+    font-size: 40px;
     padding-top: 55px;
     padding-left: 0px;
   }
 
-  /* line 271, main.scss */
+  /* line 281, main.scss */
   .map {
     margin-top: 25px;
   }
 
-  /* line 275, main.scss */
+  /* line 285, main.scss */
   .footer {
     padding-left: 0px;
   }
 
-  /* line 279, main.scss */
+  /* line 289, main.scss */
   .travelsItemWrap {
     margin-top: 10px;
   }
-  /* line 281, main.scss */
+  /* line 291, main.scss */
   .travelsItemWrap .travelsItem {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  /* line 287, main.scss */
+  /* line 297, main.scss */
   .mapWrap {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  /* line 292, main.scss */
+  /* line 302, main.scss */
   .controlPanel, .buttonWrap {
     height: 80px;
   }
 
+  /* line 306, main.scss */
   .corn {
+    background-image: url("../img/corn.jpg");
     background-position: 100% 100%;
   }
+
+  /* Portfolio */
+  /* line 312, main.scss */
+  .portfolioTitle {
+    font-size: 40px;
+    padding-top: 55px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  /* line 319, main.scss */
+  .portfolioItemWrap h1 {
+    font-size: 30px;
+  }
+}
+/* Bootstrap sm*/
 /* ^#@Bootstrap md */
                     /*
 Larger than tablet portrait */
 @media (min-width: 992px) {
-  /* line 301, main.scss */
+  /* line 327, main.scss */
   .mapCols {
     margin-top: 25px;
   }
-  /* line 303, main.scss */
+  /* line 329, main.scss */
   .mapCols .map {
     margin-top: 10px;
   }
 
-  /* line 308, main.scss */
+  /* line 334, main.scss */
   .ang-wrap, .mountainSection, .homeWrap, .aboutWrap, .portfolioWrap, .travelsWrap {
     height: 520px;
   }
 
-  /* line 312, main.scss */
+  /* line 338, main.scss */
   .travelsItemWrap {
     margin-top: 25px;
   }
-  /* line 314, main.scss */
+  /* line 340, main.scss */
   .travelsItemWrap .travelsItem {
     text-align: left;
     font-size: 20px;
   }
 
-  /* line 320, main.scss */
+  /* line 346, main.scss */
   .travelsItem:first-child {
     margin-top: 0px;
   }
 }
 /*Bootstrap Md*/
 @media (min-width: 1200px) {
-  /* line 326, main.scss */
+  /* line 352, main.scss */
   .travelsItemWrap .travelsItem {
     font-size: 24px;
   }
 
-  /* line 331, main.scss */
+  /* line 357, main.scss */
   .mapCols {
     margin-top: 40px;
   }
