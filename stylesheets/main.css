@@ -177,7 +177,6 @@ f
 /* .blackfooter */
 /* line 163, main.scss */
 .aboutWrap, .portfolioWrap, .travelsWrap {
-  overflow: scroll;
   color: white;
 }
 
