@@ -417,3 +417,10 @@ Larger than tablet portrait */
     margin-top: 40px;
   }
 }
+
+/*Mobile Only */
+@media (max-width: 768px) {
+    .hM {
+      display: none;
+    }
+}
